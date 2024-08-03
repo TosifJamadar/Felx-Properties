@@ -1,41 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Flex Properties</title>
+    <title>About Page</title>
 <style>
-     body{
-        margin: 0;
-        padding: 0;
-        background-image: url(./img/back5.jpg);
-        background-size: cover;
-    }
-   .Nav_bar{
-    display: flex;
-    height: 70px;
-    width: 100%;
-    background-color: black;
-   }
-   .Nav_Left{
-    color: white;
-    font-size: 50px;
-    margin: 10px 0 0 50px;
-   }
-   .Nav_Right{
-    display: flex;
-    margin: 0 0 0 380px;
-   }
-   #nav_containt{
-    margin: 20px 0 0 80px;
-    font-size: 30px;
-   }
-   a{
-    text-decoration: none;
-    color: white;
-   }
-   a:hover{
-    color: #ffa64d;
-   }
-   .container{
+    .container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -64,29 +32,14 @@
     margin: 20px 0 0 30px;
     font-size: 30px;
    }
-</style>        
+</style>    
 </head>
 <body>
-    <div class="Nav_bar">
-        <div class="Nav_Left">
-            <p style="margin: 0;">Get <span style="color:#df7c1a;">Car</span></p>
-        </div>
-        <div class="Nav_Right">
-            <p id="nav_containt"><a href="#Nav_Right">Home</a></p>
-            <p id="nav_containt"><a href="#">About</a></p>
-            <p id="nav_containt"><a href="./Pages/service.html">Servies</a></p>
-            <p id="nav_containt"><a href="#">Contact</a></p>
-        </div>
-       </div>
-       <div>
-        <h2 id="Discription" style="color:#df7c1a;">Our Top Car</h2>
-        <h3 id="Discription">Cars For All Your Needs</h3>
-       </div>
-       <!--First Container-->
-       <div class="container">
+    <!--First Container-->
+    <div class="container">
         <!--First Card-->
         <div class="Product_Card">
-            <img src="./img/img4.png" alt="img1" id="img">
+            <img src="../img/img4.png" alt="img1" id="img">
             <p id="Product_heading"><b>BMW M3 2010</b></p>
             <p id="Product_Discription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, ut.</p>
             <hr>
@@ -94,7 +47,7 @@
         </div>
          <!--Second Card-->
          <div class="Product_Card">
-            <img src="./img/img2.png" alt="img1" id="img">
+            <img src="../img/img2.png" alt="img1" id="img">
             <p id="Product_heading"><b>Toyota Fortuner 2024</b></p>
             <p id="Product_Discription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, ut.</p>
             <hr>
@@ -102,13 +55,12 @@
         </div>
          <!--Third Card-->
          <div class="Product_Card">
-            <img src="./img/img3.png" alt="img1" id="img">
+            <img src="../img/img3.png" alt="img1" id="img">
             <p id="Product_heading"><b>Mahindra Thar</b></p>
             <p id="Product_Discription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, ut.</p>
             <hr>
             <p id="Product_Discription">4.8⭐(450 Reviews) <span style="margin: 0 0 0 80px;"><b>₹17.60L</b></span></p>
         </div>
        </div>
-       <!--Secound Container-->
 </body>
 </html>
